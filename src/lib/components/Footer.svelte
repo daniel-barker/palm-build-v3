@@ -114,7 +114,7 @@
 
 	/* Adjust other columns down */
 	.footer-column:not(:first-child) {
-		margin-top: 6rem; /* Push down the other columns */
+		margin-top: 7.6rem; /* Push down the other columns */
 	}
 
 	.logo {
