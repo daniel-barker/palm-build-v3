@@ -50,7 +50,7 @@
 					<li>
 						<i class="fas fa-map-marker-alt"></i> 378 Crompton Street<br />Charlotte, NC 28273
 					</li>
-					<li><i class="fas fa-phone"></i> <a href="tel:+19546412018">+1 (954) 641-2018</a></li>
+					<li><i class="fas fa-phone"></i> <a href="tel:+18882455155">(888) 245-5155</a></li>
 					<li>
 						<i class="fas fa-envelope"></i>
 						<a href="mailto:admin@palmbld.com">admin@palmbld.com</a>
@@ -81,7 +81,7 @@
 	.footer {
 		background-color: var(--primary-dark);
 		color: var(--neutral-light);
-		padding-top: 4rem;
+		padding-top: 1rem;
 	}
 
 	.footer-grid {
@@ -109,28 +109,22 @@
 
 	/* Logo column positioning */
 	.footer-column:first-child {
-		margin-top: -3.5rem; /* Move the first column up */
+		margin-top: -6.3rem;
 	}
 
-	/* Adjust other columns down */
+	/* Adjust other columns */
 	.footer-column:not(:first-child) {
-		margin-top: 7.6rem; /* Push down the other columns */
+		margin-top: 7.6rem;
 	}
 
 	.logo {
-		margin-bottom: 1rem;
+		margin-bottom: -2.3rem;
+		padding-top: 4rem;
 	}
 
 	.footer-tagline {
 		margin: 1rem 0 0.5rem;
 		font-style: italic;
-	}
-a
-	.service-areas {
-		font-size: 0.85rem;
-		margin-bottom: 1rem;
-		line-height: 1.4;
-		opacity: 0.85;
 	}
 
 	.social-icons {
@@ -268,6 +262,7 @@ a
 		height: 165px;
 		width: auto;
 		margin-bottom: 1rem;
+		transform: translateY(5px); /* Slight downward shift of the logo image */
 	}
 
 	/* Responsive Styles */

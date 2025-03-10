@@ -57,7 +57,7 @@
 		<div class="mobile-controls">
 			<div class="emergency-contact emergency-mobile">
 				<div class="mobile-emergency-dropdown">
-					<a href="tel:+19546412018" class="emergency-btn mobile-emergency-btn">
+					<a href="tel:+18882455155" class="emergency-btn mobile-emergency-btn">
 						<i class="fas fa-phone-alt"></i> <span class="emergency-text">Emergency</span>
 					</a>
 					<a href="/contact/emergency" class="emergency-form-btn">
@@ -120,11 +120,11 @@
 
 		<div class="emergency-contact emergency-desktop">
 			<div class="emergency-dropdown">
-				<a href="tel:+19546412018" class="emergency-btn">
+				<a href="tel:+18882455155" class="emergency-btn">
 					<i class="fas fa-phone-alt"></i> Emergency Response
 				</a>
 				<div class="emergency-dropdown-content">
-					<a href="tel:+19546412018" class="emergency-action">
+					<a href="tel:+18882455155" class="emergency-action">
 						<i class="fas fa-phone-alt"></i> Call Now
 					</a>
 					<a href="/contact/emergency" class="emergency-action">

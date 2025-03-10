@@ -5,9 +5,7 @@
             "6451 N Federal Highway, Fort Lauderdale, FL 33308"
         ],
         phones: [
-            { label: "FL", number: "+19546412018", display: "+1 (954) 641-2018" },
-            { label: "NC", number: "+17048371454", display: "+1 (704) 837-1454" },
-            { label: "SC", number: "+18032394794", display: "+1 (803) 239-4794" }
+            { label: "Main", number: "+18882455155", display: "(888) 245-5155" }
         ],
         email: "admin@palmbld.com",
         hours: ["Monday-Friday: 8am - 6pm", "24/7 Emergency Response"],

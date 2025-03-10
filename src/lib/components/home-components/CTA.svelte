@@ -1,8 +1,8 @@
 <script>
     export let title = "Need Emergency Restoration Services?";
     export let subtitle = "With over 30 years of expertise and IICRC-certified technicians serving seven states, our team is standing by 24/7 to respond to your restoration needs.";
-    export let phoneNumber = "+19546412018";
-    export let phoneDisplay = "(954) 641-2018";
+    export let phoneNumber = "+18882455155";
+    export let phoneDisplay = "(888) 245-5155";
 </script>
 
 <section id="cta" class="section emergency-bg">

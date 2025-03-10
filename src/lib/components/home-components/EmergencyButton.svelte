@@ -1,6 +1,6 @@
 <script>
     // Accept props for phone number and text
-    export let phoneNumber = "+19546412018";
+    export let phoneNumber = "+18882455155";
     export let buttonText = "Emergency Response";
     export let className = ""; // Additional classes
     export let icon = true; // Show icon or not

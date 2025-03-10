@@ -139,7 +139,7 @@
             </div>
             <div class="info-content">
               <h3>Call Now For Immediate Help</h3>
-              <p class="emergency-phone"><a href="tel:+19546412018">+1 (954) 641-2018</a></p>
+              <p class="emergency-phone"><a href="tel:+18882455155">(888) 245-5155</a></p>
               <p>Our team is ready to assist you right away.</p>
             </div>
           </div>

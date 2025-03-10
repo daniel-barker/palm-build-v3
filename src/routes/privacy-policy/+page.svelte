@@ -77,7 +77,7 @@
                 <p>If you have any questions about this Privacy Policy, please contact us:</p>
                 <ul>
                     <li>By email: admin@palmbld.com</li>
-                    <li>By phone: +1 (954) 641-2018</li>
+                    <li>By phone: (888) 245-5155</li>
                     <li>By mail: 378 Crompton Street, Charlotte, NC 28273</li>
                 </ul>
             </section>
