@@ -1,3 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap');
 @import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
+
+
+/* Color Palette */
+:root {
+  /* Primary Colors - Deep Blue */
+  --primary: #0a101f;
+  --primary-rgb: 10, 16, 31;
+  /* Add RGB values for rgba usage */
+  /* Dark Navy */
+  --primary-light: #1A237E;
+  /* Deep Blue */
+  --primary-dark: #1b2940;
+  /* Royal Navy */
+
+  /* Accent Colors - Orange/Red */
+  --accent: #456fd7;
+  /* Vibrant Blue */
+  --accent-dark: #1f3861;
+  /* Deep Blue */
+  --accent-alt: #F44336;
+  /* Bright Red */
+
+  /* Neutral Colors */
+  --neutral-white: #ffffff;
+  /* Pure White */
+  --neutral-light: #f5f7fa;
+  /* Off-White */
+  --neutral-gray: #e0e4e9;
+  /* Light Gray */
+  --neutral-dark: #141236;
+  /* Dark Gray for text */
+
+  /* Font Families */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+}
+
+html,
+body {
+  font-family: var(--font-body);
+  color: var(--neutral-dark);
+  background-color: var(--neutral-white);
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--neutral-white);
+  border: 2px solid var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--primary);
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  color: var(--neutral-white);
+  border: 2px solid var(--accent);
+}
+
+.btn-accent:hover {
+  background-color: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--neutral-white);
+  color: var(--neutral-white);
+}
+
+.btn-outline:hover {
+  background-color: var(--neutral-white);
+  color: var(--primary);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+/* Background Colors */
+.navy-bg {
+  background-color: var(--primary);
+  color: var(--neutral-white);
+}
+
+.dark-navy-bg {
+  background-color: var(--primary);
+  color: var(--neutral-white);
+}
+
+.gray-bg {
+  background-color: var(--neutral-light);
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.accent-text {
+  color: var(--accent);
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .section {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}

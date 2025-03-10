@@ -1,38 +1,68 @@
-# sv
+# Palm Build - Professional Building Restoration Company Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A professional website for a building restoration company specializing in fire, water, and storm damage restoration services.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Modern, responsive design optimized for all devices
+- Professional color scheme with deep navy blue primary colors, orange accents, and neutral white/gray tones
+- Comprehensive sections showcasing services, process, portfolio, and testimonials
+- Emergency contact prominently featured throughout the site
+- Contact form for easy client inquiries
+- Before/After project gallery
+- Mobile-friendly navigation
+
+## Color Palette
+
+- **Primary Colors (Deep Blues/Navys)**
+
+  - Dark Navy: #1A237E
+  - Deep Blue: #0D47A1
+  - Royal Navy: #303F9F
+
+- **Accent Colors (Orange/Red)**
+
+  - Vibrant Orange: #FF5722
+  - Deep Orange: #E64A19
+  - Bright Red: #F44336
+
+- **Neutral Colors**
+  - Pure White: #FFFFFF
+  - Off-White: #F5F5F5
+  - Light Gray: #EEEEEE
+  - Dark Gray (for text): #333333
+
+## Technology Stack
+
+- SvelteKit - Frontend framework
+- CSS3 with custom variables for consistent theming
+- Responsive design with mobile-first approach
+- Font Awesome icons
+- Google Fonts (Montserrat for headings, Open Sans for body text)
+
+## Getting Started
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# Install dependencies
+npm install
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# Start development server
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+# Build for production
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## Project Structure
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- `src/routes/` - Contains the main page components
+- `src/app.css` - Global styles and CSS variables
+- `static/` - Static assets like images and favicon
+
+## License
+
+All rights reserved. This project is proprietary and confidential.
+
+## Contact
+
+For questions or support regarding this website, please contact [info@palmbuild.com](mailto:info@palmbuild.com).
