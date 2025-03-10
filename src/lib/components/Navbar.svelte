@@ -114,7 +114,7 @@
 					</div>
 				{/if}
 			</li>
-			<li><a href="#about" on:click={toggleMenu}>About Us</a></li>
+			<li><a href="/about" on:click={toggleMenu}>About Us</a></li>
 			<li><a href="/contact" class="contact-item" on:click={toggleMenu}>Contact</a></li>
 		</ul>
 

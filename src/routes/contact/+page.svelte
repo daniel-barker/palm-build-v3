@@ -592,19 +592,6 @@
     border: 1px solid rgba(244, 67, 54, 0.3);
   }
 
-  .alert.info {
-    background-color: rgba(33, 150, 243, 0.1);
-    color: #1565c0;
-    border: 1px solid rgba(33, 150, 243, 0.3);
-  }
-
-  .alert code {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 0.1rem 0.3rem;
-    border-radius: 3px;
-    font-family: monospace;
-  }
-
   /* Map Section */
   .map-section {
     padding: 4rem 0;

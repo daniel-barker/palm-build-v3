@@ -8,7 +8,9 @@
 		<div class="footer-grid">
 			<div class="footer-column">
 				<div class="logo">
-					<span class="logo-text">Palm Build</span>
+					<a href="/">
+						<img src="/logo/palm_build_nobg.svg" alt="Palm Build Logo" class="logo-img" />
+					</a>
 				</div>
 				<p class="footer-tagline">Restoring Properties, Rebuilding Lives for over 30 years.</p>
 				<p class="service-areas">Serving Florida, North Carolina, South Carolina, Georgia, Texas, Tennessee, and New Jersey.</p>
@@ -103,6 +105,20 @@
 		width: 50px;
 		height: 2px;
 		background-color: var(--accent);
+	}
+
+	/* Logo column positioning */
+	.footer-column:first-child {
+		margin-top: -3.5rem; /* Move the first column up */
+	}
+
+	/* Adjust other columns down */
+	.footer-column:not(:first-child) {
+		margin-top: 6rem; /* Push down the other columns */
+	}
+
+	.logo {
+		margin-bottom: 1rem;
 	}
 
 	.footer-tagline {
@@ -246,6 +262,12 @@
 		font-family: var(--font-heading);
 		font-size: 1.8rem;
 		font-weight: 700;
+	}
+
+	.logo-img {
+		height: 165px;
+		width: auto;
+		margin-bottom: 1rem;
 	}
 
 	/* Responsive Styles */
