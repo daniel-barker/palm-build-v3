@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
+  <url>
+    <loc>https://palmbuild.com/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/about</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/services</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/contact</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://palmbuild.com/services/fire-damage</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/services/water-damage</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/services/mold-remediation</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/services/asbestos-abatement</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/services/reconstruction</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Pages -->
+  <url>
+    <loc>https://palmbuild.com/contact/emergency</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/contact/quote</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Resource Pages -->
+  <url>
+    <loc>https://palmbuild.com/testimonials</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/portfolio</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/faq</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/blog</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://palmbuild.com/privacy-policy</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/terms-of-service</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://palmbuild.com/sitemap</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

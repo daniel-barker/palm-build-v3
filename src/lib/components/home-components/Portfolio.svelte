@@ -103,10 +103,6 @@
                 </div>
             {/each}
         </div>
-
-        <div class="mt-5 text-center">
-            <a href="#" class="btn btn-primary">View More Projects</a>
-        </div>
     </div>
 </section>
 
@@ -183,15 +179,6 @@
         z-index: 0;
     }
 
-    /* Remove previous hover effects that completely hide before image */
-    .portfolio-images:hover .image-before {
-        /* Remove the clip-path that was hiding the image */
-    }
-
-    .portfolio-images:hover .image-after {
-        /* Remove the scale effect */
-    }
-
     .image-label {
         position: absolute;
         bottom: 10px;
@@ -259,14 +246,6 @@
 
     .portfolio-info p {
         opacity: 0.9;
-    }
-
-    .mt-5 {
-        margin-top: 3rem;
-    }
-
-    .text-center {
-        text-align: center;
     }
 
     @media (max-width: 768px) {

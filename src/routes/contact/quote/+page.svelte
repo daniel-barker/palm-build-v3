@@ -294,6 +294,24 @@
     border-bottom: 5px solid #1976D2;
   }
 
+  /* Page Header Styling */
+  .page-header {
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  .page-header h1 {
+    font-size: 2.5rem;
+    color: var(--neutral-white);
+    margin-bottom: 0.5rem;
+  }
+
+  .page-header p {
+    font-size: 1.2rem;
+    color: var(--neutral-light);
+    opacity: 0.9;
+  }
+
   /* Contact Options Section */
   .contact-options-section {
     padding: 3rem 0;
@@ -391,6 +409,21 @@
     }
   }
 
+  /* Contact Grid Styles */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+
+  .contact-info-container,
+  .contact-form-container {
+    background-color: var(--neutral-white);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 2rem;
+  }
+
   .quote-box {
     background-color: rgba(33, 150, 243, 0.1);
     border-left: 4px solid #2196F3;
@@ -419,5 +452,103 @@
 
   .quote-form button.quote-btn:hover {
     background-color: #1976D2;
+  }
+
+  /* Responsive Styles for Contact Grid */
+  @media (max-width: 992px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--neutral-gray);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    transition: border-color 0.3s;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+
+  input.error,
+  textarea.error {
+    border-color: var(--accent-alt);
+  }
+
+  .error-message {
+    color: var(--accent-alt);
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+    display: block;
+  }
+
+  .form-actions {
+    margin-top: 1.5rem;
+  }
+
+  .btn-block {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .alert {
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .alert.success {
+    background-color: rgba(76, 175, 80, 0.1);
+    color: #2e7d32;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+  }
+
+  .alert.error {
+    background-color: rgba(244, 67, 54, 0.1);
+    color: #c62828;
+    border: 1px solid rgba(244, 67, 54, 0.3);
+  }
+
+  /* Honeypot field styling - hide it from human users */
+  .honeypot-field {
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+    overflow: hidden;
   }
 </style>

@@ -36,11 +36,11 @@
 			<div class="footer-column">
 				<h3>Quick Links</h3>
 				<ul class="footer-links">
-					<li><a href="#about">About Us</a></li>
-					<li><a href="#testimonials">Testimonials</a></li>
-					<li><a href="#portfolio">Recent Projects</a></li>
-					<li><a href="#faq">FAQ</a></li>
-					<li><a href="#blog">Blog</a></li>
+					<li><a href="/about">About Us</a></li>
+					<li><a href="/#testimonials">Testimonials</a></li>
+					<li><a href="/#services">Our Services</a></li>
+					<li><a href="/contact">Contact Us</a></li>
+					<li><a href="/contact/quote">Request a Quote</a></li>
 				</ul>
 			</div>
 
@@ -68,9 +68,9 @@
 		<div class="footer-bottom">
 			<p>&copy; {currentYear} Palm Build Restoration. All Rights Reserved.</p>
 			<p class="footer-links">
-				<a href="#privacy">Privacy Policy</a> |
-				<a href="#terms">Terms of Service</a> |
-				<a href="#sitemap">Sitemap</a>
+				<a href="/privacy-policy">Privacy Policy</a> |
+				<a href="/terms-of-service">Terms of Service</a> |
+				<a href="/sitemap">Sitemap</a>
 			</p>
 		</div>
 	</div>
@@ -125,7 +125,7 @@
 		margin: 1rem 0 0.5rem;
 		font-style: italic;
 	}
-
+a
 	.service-areas {
 		font-size: 0.85rem;
 		margin-bottom: 1rem;

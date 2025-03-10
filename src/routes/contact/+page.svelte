@@ -302,20 +302,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Map Section -->
-  <section class="map-section">
-    <div class="container">
-      <h2 class="text-center">Find Us</h2>
-      <div class="map-container">
-        <!-- Replace this with an actual Google Maps embed -->
-        <div class="map-placeholder">
-          <p class="text-center">Google Maps will be embedded here</p>
-          <p class="text-center">378 Crompton Street, Charlotte, NC 28273</p>
-        </div>
-      </div>
-    </div>
-  </section>
 </div>
 
 <style>
@@ -590,30 +576,6 @@
     background-color: rgba(244, 67, 54, 0.1);
     color: #c62828;
     border: 1px solid rgba(244, 67, 54, 0.3);
-  }
-
-  /* Map Section */
-  .map-section {
-    padding: 4rem 0;
-    background-color: var(--neutral-light);
-  }
-
-  .map-container {
-    margin-top: 2rem;
-    height: 400px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-
-  .map-placeholder {
-    background-color: #e0e0e0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #555;
-    font-size: 1.2rem;
   }
 
   /* Responsive Styles */
