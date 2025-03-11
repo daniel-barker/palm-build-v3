@@ -9,6 +9,7 @@
 	import Testimonials from '../lib/components/home-components/Testimonials.svelte';
 	import CTA from '../lib/components/home-components/CTA.svelte';
 	import Contact from '../lib/components/home-components/Contact.svelte';
+	import DisasterSimulatorSection from '../lib/components/home-components/DisasterSimulatorSection.svelte';
 </script>
 
 <Hero />
@@ -16,6 +17,7 @@
 <Features />
 <LogoStrip />
 <Process />
+<DisasterSimulatorSection />
 <Portfolio />
 <Testimonials />
 <CTA />
